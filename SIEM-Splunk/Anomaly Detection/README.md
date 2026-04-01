@@ -177,13 +177,26 @@ This project helped me understand real-world SOC analysis and how to investigate
 
 ## Project Screenshots
 
-* Data Ingestion
-* Sourcetype Analysis
-* Login Analysis
-* User Investigation
-* Time Analysis
-* Anomaly Detection
-* Visualization
+### 🔹 Data Ingestion
+![Data Ingestion](01_Data_Ingestion.png)
+
+### 🔹 Sourcetype Analysis
+![Sourcetype](02_Sourcetype.png)
+
+### 🔹 Login Analysis
+![Login Analysis](03_Login_Analysis.png)
+
+### 🔹 User Investigation
+![User Investigation](04_User_Investigation.png)
+
+### 🔹 Time-Based Analysis
+![Time Analysis](05_Time_Analysis.png)
+
+### 🔹 Anomaly Detection
+![Anomaly Detection](06_Anomaly_Detection.png)
+
+### 🔹 Visualization
+![Visualization](07_Visualization.png)
 
 ---
 
