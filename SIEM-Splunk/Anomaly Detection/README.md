@@ -1,5 +1,11 @@
 # Authentication Anomaly Detection using Splunk (BOTS v3)
 
+## Executive Summary
+
+This project analyzes authentication logs from the BOTS v3 dataset using Splunk to detect abnormal login behavior. The analysis identified unusual login patterns for a specific user, indicating potential automated authentication activity that may pose a security risk to organizational systems.
+
+---
+
 ## Project Overview
 
 In this project, I used Splunk Enterprise and BOTS v3 dataset to analyze authentication logs and identify unusual login behavior.
