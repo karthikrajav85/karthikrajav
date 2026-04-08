@@ -47,11 +47,13 @@ The main goal of this project is to monitor outbound traffic and detect suspicio
 
 ## Step-by-Step Approach
 
+---
+
 ### 1️⃣ Data Ingestion
 
-- Loaded BOTS v3 dataset into Splunk  
-- Created index: `botsv3`  
-- Verified data  
+* Loaded BOTS v3 dataset into Splunk
+* Created index: `botsv3`
+* Verified data
 
 #### 🔍 Verification Query
 
@@ -59,81 +61,74 @@ The main goal of this project is to monitor outbound traffic and detect suspicio
 index=botsv3
 ```
 
-Loaded the BOTS v3 dataset into Splunk and created the `botsv3` index.  
-Verified that the data is successfully ingested and searchable.
+Loaded the BOTS v3 dataset into Splunk and created the `botsv3` index. Verified that the data is successfully ingested and searchable.
 
 ---
-
 
 ### 2️⃣ Understanding the Data
 
 * Identified available sourcetypes:
 
-```
+```spl
 index=botsv3 | stats count by sourcetype
 ```
 
 * Focused on network logs:
 
-```
-stream:*
+```spl
+index=botsv3 sourcetype=stream:*
 ```
 
 Explored the dataset to understand available log sources. Identified different sourcetypes and selected network traffic logs for further analysis.
----
 
+---
 
 ### 3️⃣ Exploring Network Data
 
 * Verified key fields for analysis:
 
-```
+```spl
 index=botsv3 sourcetype=stream:*
 ```
 
 * Identified important fields:
 
-  * src_ip
-  * dest_ip
-  * bytes_out
-  * bytes_in
+  * `src_ip`
+  * `dest_ip`
+  * `bytes_out`
+  * `bytes_in`
 
----
 Analyzed stream-based network logs to identify key fields such as source IP, destination IP, and outbound data size. These fields are important for detecting data exfiltration.
----
 
+---
 
 ### 4️⃣ Identifying Top Data Senders
 
-* Detected systems sending highest outbound data:
-
-```
+```spl
 index=botsv3 sourcetype=stream:*
 | stats sum(bytes_out) as total_outbound by src_ip
 | sort - total_outbound
 ```
-Analyzed outbound traffic to identify systems sending the highest amount of data. This helps in detecting unusual or suspicious data transfer behavior.
----
 
+Analyzed outbound traffic to identify systems sending the highest amount of data. This helps in detecting unusual or suspicious data transfer behavior.
+
+---
 
 ### 5️⃣ Source and Destination Analysis
 
-* Analyzed data flow between systems:
-
-```
+```spl
 index=botsv3 sourcetype=stream:*
 | stats sum(bytes_out) as total_outbound by src_ip, dest_ip
 | sort - total_outbound
 ```
-Correlated source and destination IP addresses to understand data flow. This helps identify where the data is being sent and detect suspicious communication paths.
----
 
+Correlated source and destination IP addresses to understand data flow. This helps identify where the data is being sent and detect suspicious communication paths.
+
+---
 
 ### 6️⃣ Filtering External Traffic
 
-* Removed internal traffic using CIDR:
-
-```
+```spl
 index=botsv3 sourcetype=stream:*
 | where NOT (
     cidrmatch("172.16.0.0/12", dest_ip) OR
@@ -142,28 +137,26 @@ index=botsv3 sourcetype=stream:*
 | stats sum(bytes_out) as total_outbound by src_ip, dest_ip
 | sort - total_outbound
 ```
-Filtered out internal network traffic using CIDR ranges to focus only on external communication. This helps in identifying potential data leaving the organization.
----
 
+Filtered out internal network traffic using CIDR ranges to focus only on external communication. This helps in identifying potential data leaving the organization.
+
+---
 
 ### 7️⃣ Time-Based Analysis
 
-* Analyzed traffic pattern over time:
-
-```
+```spl
 index=botsv3 sourcetype=stream:*
 | where src_ip="172.16.133.131" AND dest_ip="13.107.4.50"
 | timechart sum(bytes_out) as outbound_traffic
 ```
-Analyzed traffic patterns over time to detect sudden spikes in outbound data. Such spikes may indicate abnormal or suspicious activity.
----
 
+Analyzed traffic patterns over time to detect sudden spikes in outbound data. Such spikes may indicate abnormal or suspicious activity.
+
+---
 
 ### 8️⃣ Final Detection Logic
 
-* Created detection rule for high outbound traffic:
-
-```
+```spl
 index=botsv3 sourcetype=stream:*
 | where NOT (
     cidrmatch("172.16.0.0/12", dest_ip) OR 
@@ -173,17 +166,23 @@ index=botsv3 sourcetype=stream:*
 | where total_outbound > 100000000
 | sort - total_outbound
 ```
+
 Created a detection rule to identify high-volume outbound traffic to external IPs. Applied a threshold to highlight potential data exfiltration events.
+
 ---
 
 ## Key Findings
 
 * Identified systems generating high outbound traffic
+
 * Detected communication between internal and external IPs
+
 * Found a suspicious system:
 
-  * **172.16.133.131 → 13.107.4.50**
+  **172.16.133.131 → 13.107.4.50**
+
 * Data transferred: **~333 MB**
+
 * Observed sudden spike in outbound traffic
 
 ---
@@ -270,28 +269,35 @@ This project helped me understand real-world network monitoring and how to detec
 ## Project Screenshots
 
 ### 🔹 Data Validation
+
 ![Data Validation](01_Data_Validation.png)
 
 ### 🔹 Sourcetype Analysis
+
 ![Sourcetype](02_Sourcetype_Analysis.png)
 
 ### 🔹 Stream Data Exploration
+
 ![Stream Data](03_Stream_Data_Exploration.png)
 
 ### 🔹 Top Data Senders
+
 ![Top Senders](04_Top_Data_Senders.png)
 
 ### 🔹 Source-Destination Analysis
+
 ![Source Destination](05_Source_Destination_Analysis.png)
 
 ### 🔹 External Communication
+
 ![External Traffic](06_External_Communication.png)
 
 ### 🔹 Traffic Spike Analysis
+
 ![Traffic Spike](07_Traffic_Spike_Analysis.png)
 
 ### 🔹 Final Detection
+
 ![Final Detection](08_Final_Detection_Result.png)
 
 ---
-
