@@ -56,6 +56,7 @@ The main goal of this project is to monitor outbound traffic and detect suspicio
 ```
 index=botsv3
 ---
+
 Loaded the BOTS v3 dataset into Splunk and created the botsv3 index. Verified that the data is successfully ingested and searchable.
 ---
 
@@ -73,6 +74,7 @@ index=botsv3 | stats count by sourcetype
 ```
 stream:*
 ```
+
 Explored the dataset to understand available log sources. Identified different sourcetypes and selected network traffic logs for further analysis.
 ---
 
