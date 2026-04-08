@@ -59,6 +59,7 @@ index=botsv3
 Loaded the BOTS v3 dataset into Splunk and created the botsv3 index. Verified that the data is successfully ingested and searchable.
 ---
 
+
 ### 2️⃣ Understanding the Data
 
 * Identified available sourcetypes:
@@ -74,6 +75,7 @@ stream:*
 ```
 Explored the dataset to understand available log sources. Identified different sourcetypes and selected network traffic logs for further analysis.
 ---
+
 
 ### 3️⃣ Exploring Network Data
 
@@ -94,6 +96,7 @@ index=botsv3 sourcetype=stream:*
 Analyzed stream-based network logs to identify key fields such as source IP, destination IP, and outbound data size. These fields are important for detecting data exfiltration.
 ---
 
+
 ### 4️⃣ Identifying Top Data Senders
 
 * Detected systems sending highest outbound data:
@@ -106,6 +109,7 @@ index=botsv3 sourcetype=stream:*
 Analyzed outbound traffic to identify systems sending the highest amount of data. This helps in detecting unusual or suspicious data transfer behavior.
 ---
 
+
 ### 5️⃣ Source and Destination Analysis
 
 * Analyzed data flow between systems:
@@ -117,6 +121,7 @@ index=botsv3 sourcetype=stream:*
 ```
 Correlated source and destination IP addresses to understand data flow. This helps identify where the data is being sent and detect suspicious communication paths.
 ---
+
 
 ### 6️⃣ Filtering External Traffic
 
@@ -134,6 +139,7 @@ index=botsv3 sourcetype=stream:*
 Filtered out internal network traffic using CIDR ranges to focus only on external communication. This helps in identifying potential data leaving the organization.
 ---
 
+
 ### 7️⃣ Time-Based Analysis
 
 * Analyzed traffic pattern over time:
@@ -145,6 +151,7 @@ index=botsv3 sourcetype=stream:*
 ```
 Analyzed traffic patterns over time to detect sudden spikes in outbound data. Such spikes may indicate abnormal or suspicious activity.
 ---
+
 
 ### 8️⃣ Final Detection Logic
 
