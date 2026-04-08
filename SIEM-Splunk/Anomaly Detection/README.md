@@ -148,12 +148,32 @@ This indicates an **authentication anomaly**, not a brute force attack.
 
 ---
 
+## Why This Activity is Considered Anomalous
+
+- Multiple login events occurring within the same second
+- Repeated login activity in a short time window
+- Behavior differs from typical human login patterns
+- Consistent logon types indicating automated or background processes
+
+These indicators suggest non-human or automated authentication behavior.
+
+---
+
 ## Visualization
 
 * Created time-based chart to clearly show login spikes
 * Helps to easily identify abnormal behavior
 
 ---
+
+## Business Impact
+
+- Unauthorized access to internal systems
+- Potential misuse of user accounts
+- Risk of data exposure or system compromise
+- Compliance and audit concerns if not monitored
+
+Such anomalies, if ignored, can lead to serious security incidents.
 
 ## What I Learned
 
