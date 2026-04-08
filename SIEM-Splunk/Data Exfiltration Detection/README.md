@@ -49,13 +49,14 @@ The main goal of this project is to monitor outbound traffic and detect suspicio
 
 ### 1️⃣ Data Ingestion
 
-* Loaded BOTS v3 dataset into Splunk
-* Created index: `botsv3`
-* Verified data:
+- Loaded BOTS v3 dataset into Splunk  
+- Created index: `botsv3`  
+- Verified data  
 
-```
+#### 🔍 Verification Query
+
+```spl
 index=botsv3
----
 
 Loaded the BOTS v3 dataset into Splunk and created the botsv3 index. Verified that the data is successfully ingested and searchable.
 ---
