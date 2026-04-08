@@ -49,7 +49,7 @@ The main goal of this project is to monitor outbound traffic and detect suspicio
 
 ---
 
-### 1️⃣ Data Ingestion
+### 1️. Data Ingestion
 
 * Loaded BOTS v3 dataset into Splunk
 * Created index: `botsv3`
@@ -65,7 +65,7 @@ Loaded the BOTS v3 dataset into Splunk and created the `botsv3` index. Verified 
 
 ---
 
-### 2️⃣ Understanding the Data
+### 2️. Understanding the Data
 
 * Identified available sourcetypes:
 
@@ -83,7 +83,7 @@ Explored the dataset to understand available log sources. Identified different s
 
 ---
 
-### 3️⃣ Exploring Network Data
+### 3️. Exploring Network Data
 
 * Verified key fields for analysis:
 
@@ -102,7 +102,7 @@ Analyzed stream-based network logs to identify key fields such as source IP, des
 
 ---
 
-### 4️⃣ Identifying Top Data Senders
+### 4️. Identifying Top Data Senders
 
 ```spl
 index=botsv3 sourcetype=stream:*
@@ -114,7 +114,7 @@ Analyzed outbound traffic to identify systems sending the highest amount of data
 
 ---
 
-### 5️⃣ Source and Destination Analysis
+### 5️. Source and Destination Analysis
 
 ```spl
 index=botsv3 sourcetype=stream:*
@@ -126,7 +126,7 @@ Correlated source and destination IP addresses to understand data flow. This hel
 
 ---
 
-### 6️⃣ Filtering External Traffic
+### 6️. Filtering External Traffic
 
 ```spl
 index=botsv3 sourcetype=stream:*
@@ -142,7 +142,7 @@ Filtered out internal network traffic using CIDR ranges to focus only on externa
 
 ---
 
-### 7️⃣ Time-Based Analysis
+### 7️. Time-Based Analysis
 
 ```spl
 index=botsv3 sourcetype=stream:*
@@ -154,7 +154,7 @@ Analyzed traffic patterns over time to detect sudden spikes in outbound data. Su
 
 ---
 
-### 8️⃣ Final Detection Logic
+### 8️. Final Detection Logic
 
 ```spl
 index=botsv3 sourcetype=stream:*
