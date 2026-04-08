@@ -177,6 +177,23 @@ Such anomalies, if ignored, can lead to serious security incidents.
 
 ---
 
+## Risk Assessment
+
+- Likelihood: Medium  
+- Impact: High  
+- Overall Risk: Medium to High
+
+---
+
+## Recommendations
+
+- Enable alerting for abnormal login patterns
+- Implement multi-factor authentication (MFA)
+- Monitor user behavior continuously using SIEM
+- Review and audit authentication logs regularly
+
+---
+
 ## What I Learned
 
 * How to load and explore large datasets in Splunk
