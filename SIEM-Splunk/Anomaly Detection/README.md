@@ -10,7 +10,7 @@ This project analyzes authentication logs from the BOTS v3 dataset using Splunk 
 
 In this project, I used Splunk Enterprise and BOTS v3 dataset to analyze authentication logs and identify unusual login behavior.
 
-The main goal of this project is to understand how login activities happen in a system and detect any abnormal patterns which may indicate a security issue.
+The main goal of this project is to analyze authentication behavior in a system and identify anomalous login patterns that may indicate potential security issues.
 
 ---
 
