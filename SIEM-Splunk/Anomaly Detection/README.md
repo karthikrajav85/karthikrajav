@@ -175,6 +175,8 @@ These indicators suggest non-human or automated authentication behavior.
 
 Such anomalies, if ignored, can lead to serious security incidents.
 
+---
+
 ## What I Learned
 
 * How to load and explore large datasets in Splunk
