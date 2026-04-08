@@ -44,7 +44,7 @@ The main goal of this project is to analyze authentication behavior in a system 
 
 ## Step-by-Step Approach
 
-### 1️⃣ Data Ingestion
+### 1️. Data Ingestion
 
 * Uploaded BOTS v3 dataset into Splunk
 * Created index: `botsv3`
@@ -56,7 +56,7 @@ index=botsv3
 
 ---
 
-### 2️⃣ Understanding the Data
+### 2️. Understanding the Data
 
 * Identified different sourcetypes:
 
@@ -72,7 +72,7 @@ WinEventLog:Security
 
 ---
 
-### 3️⃣ Filtering Authentication Logs
+### 3️. Filtering Authentication Logs
 
 * Analyzed successful login events:
 
@@ -84,7 +84,7 @@ index=botsv3 sourcetype="WinEventLog:Security" EventCode=4624
 
 ---
 
-### 4️⃣ Identifying Real Users
+### 4️. Identifying Real Users
 
 * Removed system and machine accounts
 * Focused on human users like:
@@ -95,7 +95,7 @@ bstoll@froth.ly
 
 ---
 
-### 5️⃣ User Activity Investigation
+### 5️. User Activity Investigation
 
 * Investigated specific user activity:
 
@@ -107,7 +107,7 @@ index=botsv3 sourcetype="WinEventLog:Security" Account_Name="bstoll@froth.ly"
 
 ---
 
-### 6️⃣ Time-Based Analysis
+### 6️. Time-Based Analysis
 
 * Checked login pattern over time:
 
@@ -118,7 +118,7 @@ index=botsv3 sourcetype="WinEventLog:Security" Account_Name="bstoll@froth.ly"
 
 ---
 
-### 7️⃣ Anomaly Detection
+### 7️. Anomaly Detection
 
 * Detected multiple logins in same second:
 
@@ -222,25 +222,25 @@ This project helped me understand real-world SOC analysis and how to investigate
 
 ## Project Screenshots
 
-### 🔹 Data Ingestion
+### Data Ingestion
 ![Data Ingestion](01_Data_Ingestion.png)
 
-### 🔹 Sourcetype Analysis
+### Sourcetype Analysis
 ![Sourcetype](02_Sourcetype.png)
 
-### 🔹 Login Analysis
+### Login Analysis
 ![Login Analysis](03_Login_Analysis.png)
 
-### 🔹 User Investigation
+### User Investigation
 ![User Investigation](04_User_Investigation.png)
 
-### 🔹 Time-Based Analysis
+### Time-Based Analysis
 ![Time Analysis](05_Time_Analysis.png)
 
-### 🔹 Anomaly Detection
+### Anomaly Detection
 ![Anomaly Detection](06_Anomaly_Detection.png)
 
-### 🔹 Visualization
+### Visualization
 ![Visualization](07_Visualization.png)
 
 ---
