@@ -55,8 +55,6 @@ The main goal of this project is to monitor outbound traffic and detect suspicio
 * Created index: `botsv3`
 * Verified data
 
-#### 🔍 Verification Query
-
 ```spl
 index=botsv3
 ```
