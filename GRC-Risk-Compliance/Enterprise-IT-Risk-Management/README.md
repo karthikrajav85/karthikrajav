@@ -259,6 +259,18 @@ This ensures risks are actively managed and reduced to acceptable levels.
 
 ---
 
+### Business Impact
+
+The identified risks can significantly affect the organization in the following ways:
+
+- Data breaches leading to loss of customer trust
+- Financial loss due to fraud or system downtime
+- Regulatory penalties under DPDPA
+- Operational disruption in e-commerce services
+- Reputational damage impacting long-term business growth
+
+---
+
 ### Key Learnings
 
 * End-to-end enterprise risk assessment
