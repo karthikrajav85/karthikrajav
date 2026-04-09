@@ -186,7 +186,9 @@ The risk register includes:
 * Existing security controls  
 * Recommended controls for mitigation  
 * Risk treatment strategy (Mitigate)  
-* Target risk level after implementing controls  
+* Target risk level after implementing controls
+
+This enables effective tracking, prioritization, and accountability of risks across the organization.
 
 The detailed risk scenarios (asset, threat, vulnerability relationships) are documented in the Risk Assessment file.
 
@@ -219,6 +221,8 @@ Each risk includes:
 * Risk owner
 * Priority
 * Status tracking
+
+This ensures risks are actively managed and reduced to acceptable levels.
 
 ---
 
@@ -261,6 +265,7 @@ Each risk includes:
 * Practical GRC implementation
 * Mapping risks to compliance frameworks
 * Developing and tracking mitigation strategies
+* Understanding the relationship between technical risks and business impact
 
 ---
 
