@@ -266,36 +266,36 @@ This project helped me understand real-world network monitoring and how to detec
 
 ## Project Screenshots
 
-### Data Validation
+### 1. Data Validation
 
-![Data Validation](01_Data_Validation.png)
+![Data Validation](Screenshots/01_Data_Validation.png)
 
-### Sourcetype Analysis
+### 2. Sourcetype Analysis
 
-![Sourcetype](02_Sourcetype_Analysis.png)
+![Sourcetype Analysis](Screenshots/02_Sourcetype_Analysis.png)
 
-### Stream Data Exploration
+### 3. Stream Data Exploration
 
-![Stream Data](03_Stream_Data_Exploration.png)
+![Stream Data Exploration](Screenshots/03_Stream_Data_Exploration.png)
 
-### Top Data Senders
+### 4. Top Data Senders
 
-![Top Senders](04_Top_Data_Senders.png)
+![Top Data Senders](Screenshots/04_Top_Data_Senders.png)
 
-### Source-Destination Analysis
+### 5. Source Destination Analysis
 
-![Source Destination](05_Source_Destination_Analysis.png)
+![Source Destination Analysis](Screenshots/05_Source_Destination_Analysis.png)
 
-### External Communication
+### 6. External Communication
 
-![External Traffic](06_External_Communication.png)
+![External Communication](Screenshots/06_External_Communication.png)
 
-### Traffic Spike Analysis
+### 7. Traffic Spike Analysis
 
-![Traffic Spike](07_Traffic_Spike_Analysis.png)
+![Traffic Spike Analysis](Screenshots/07_Traffic_Spike_Analysis.png)
 
-### Final Detection
+### 8. Final Detection Result
 
-![Final Detection](08_Final_Detection_Result.png)
+![Final Detection Result](Screenshots/08_Final_Detection_Result.png)
 
 ---
