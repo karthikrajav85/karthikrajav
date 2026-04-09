@@ -175,6 +175,23 @@ Each risk was evaluated using:
 
 ---
 
+### Risk Register
+
+A structured risk register was developed to manage and track identified risks.
+
+The risk register includes:
+
+* Risk ID and risk level  
+* Assigned risk owner  
+* Existing security controls  
+* Recommended controls for mitigation  
+* Risk treatment strategy (Mitigate)  
+* Target risk level after implementing controls  
+
+The detailed risk scenarios (asset, threat, vulnerability relationships) are documented in the Risk Assessment file.
+
+---
+
 ### Control Mapping Approach
 
 Each risk was mapped to:
