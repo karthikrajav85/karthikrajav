@@ -267,89 +267,88 @@ This project demonstrates how network behavior analysis can be used to identify 
 
 ## Project Screenshots
 
-## Project Screenshots
-
 ---
 
 ### 1. Data Validation
 
-![Data Validation](01_Data_Validation.png)
+![Data Validation](screenshots/01_Data_Validation.png)
 
 ---
 
 ### 2. Sourcetype Analysis
 
-![Sourcetype Analysis](02_Sourcetype_Analysis.png)
+![Sourcetype Analysis](screenshots/02_Sourcetype_Analysis.png)
 
 ---
 
 ### 3. Network Log Identification
 
-![Network Logs](03_Network_Log_Identification.png)
+![Network Logs](screenshots/03_Network_Log_Identification.png)
 
 ---
 
 ### 4. Baseline Traffic Trend
 
-![Baseline Traffic](04_Baseline_Traffic_Trend.png)
+![Baseline Traffic](screenshots/04_Baseline_Traffic_Trend.png)
 
 ---
 
 ### 5. Top Talkers
 
-![Top Talkers](05_Top_Talkers.png)
+![Top Talkers](screenshots/05_Top_Talkers.png)
 
 ---
 
 ### 6. Top Destinations
 
-![Top Destinations](06_Top_Destinations.png)
+![Top Destinations](screenshots/06_Top_Destinations.png)
 
 ---
 
 ### 7. External Communication
 
-![External Communication](07_External_Communication.png)
+![External Communication](screenshots/07_External_Communication.png)
 
 ---
 
 ### 8. High External Traffic
 
-![High External Traffic](08_High_External_Traffic.png)
+![High External Traffic](screenshots/08_High_External_Traffic.png)
 
 ---
 
 ### 9. Time-Based Analysis
 
-![Time Analysis 1](09_Time_Based_Analysis%20\(1\).png)
+![Time Analysis 1](screenshots/09_Time_Based_Analysis%20\(1\).png)
 
-![Time Analysis 2](09_Time_Based_Analysis%20\(2\).png)
+![Time Analysis 2](screenshots/09_Time_Based_Analysis%20\(2\).png)
 
 ---
 
 ### 10. Port Analysis
 
-![Port Analysis](10_Port_Analysis.png)
+![Port Analysis](screenshots/10_Port_Analysis.png)
 
 ---
 
 ### 11. Rare Port Analysis
 
-![Rare Ports](11_Rare_Port_Analysis.png)
+![Rare Ports](screenshots/11_Rare_Port_Analysis.png)
 
 ---
 
 ### 12. DNS Analysis
 
-![DNS Analysis](12_DNS_Analysis.png)
+![DNS Analysis](screenshots/12_DNS_Analysis.png)
 
 ---
 
 ### 13. Rare DNS Queries
 
-![Rare DNS](13_Rare_DNS_Queries.png)
+![Rare DNS](screenshots/13_Rare_DNS_Queries.png)
 
 ---
+
 
 
 ---
