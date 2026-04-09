@@ -273,6 +273,3 @@ By identifying risks, mapping them to industry frameworks (ISO 27001, NIST CSF, 
 This approach reflects real-world GRC practices used to improve organizational security posture and risk visibility.
 
 ---
-
----
-
