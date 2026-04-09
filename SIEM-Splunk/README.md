@@ -10,7 +10,7 @@ These projects demonstrate practical skills in:
 * Log analysis
 * Threat detection
 * Network behavior monitoring
-* Investigation and analysis using SIEM tools
+* Security investigation using SIEM tools
 
 ---
 
@@ -18,7 +18,7 @@ These projects demonstrate practical skills in:
 
 ### 1. Network Behavior Analysis
 
-Analyzed network traffic to understand normal behavior and identify suspicious communication patterns such as unusual outbound traffic, rare ports, and abnormal DNS queries.
+Analyzed network traffic to establish a baseline of normal activity and identify deviations such as unusual outbound traffic, rare ports, and abnormal DNS queries.
 
 #### Key Focus:
 
@@ -27,11 +27,13 @@ Analyzed network traffic to understand normal behavior and identify suspicious c
 * External communication detection
 * Port and DNS analysis
 
+**Outcome:** Helps identify early indicators of suspicious activity in the network.
+
 ---
 
 ### 2. Data Exfiltration Detection
 
-Investigated network traffic to detect potential data exfiltration activities by identifying high outbound traffic, unusual destinations, and traffic spikes.
+Investigated network traffic to detect potential data exfiltration by identifying high outbound data transfer, unusual external destinations, and traffic spikes.
 
 #### Key Focus:
 
@@ -40,11 +42,13 @@ Investigated network traffic to detect potential data exfiltration activities by
 * Traffic spike analysis
 * Source-destination investigation
 
+**Outcome:** Helps prevent potential data breaches by identifying unauthorized data movement.
+
 ---
 
 ### 3. Anomaly Detection
 
-Performed analysis on user and system activity to detect unusual login patterns and behavioral anomalies.
+Analyzed user and system activity to detect unusual login behavior and deviations from normal patterns.
 
 #### Key Focus:
 
@@ -52,6 +56,8 @@ Performed analysis on user and system activity to detect unusual login patterns 
 * Time-based anomaly detection
 * User activity investigation
 * Visualization of abnormal patterns
+
+**Outcome:** Helps detect compromised accounts or insider threats.
 
 ---
 
@@ -67,30 +73,40 @@ Performed analysis on user and system activity to detect unusual login patterns 
 
 ## Risk Perspective
 
-These projects highlight how security monitoring helps in identifying risks such as:
+These projects highlight how continuous monitoring helps identify key organizational risks such as:
 
-- Data exfiltration leading to data breach
-- Unauthorized access due to compromised accounts
-- Suspicious external communications
-- Abnormal network behavior indicating potential attacks
+* Data exfiltration leading to data breaches
+* Unauthorized access due to compromised credentials
+* Suspicious external communications
+* Abnormal network behavior indicating potential attacks
 
-Understanding these risks is important for organizations to protect sensitive data and maintain business continuity.
+Identifying these risks early helps reduce security incidents and financial impact.
 
 ---
 
 ## Business & Security Relevance
 
-These projects simulate real-world SOC analyst tasks where logs are continuously monitored to:
+These projects simulate real-world SOC operations where logs are analyzed to:
 
 * Detect potential security incidents
 * Identify abnormal user or system behavior
-* Prevent data breaches and unauthorized access
+* Support incident response and investigation
+* Protect sensitive organizational data
 
-The approach used aligns with basic security monitoring and risk identification practices followed in organizations.
+This directly supports business goals like data protection, compliance, and operational continuity.
+
+---
+
+## Key Learnings
+
+* Developed hands-on experience in SIEM-based monitoring
+* Learned to identify abnormal patterns in network and user behavior
+* Improved investigation and analytical thinking skills
+* Understood how technical findings map to business risks
 
 ---
 
 ## Conclusion
 
-These projects helped build a strong foundation in SIEM-based monitoring, investigation, and detection techniques, which are essential for entry-level cybersecurity roles and future transition into Cyber GRC.
-
+These projects helped build a strong foundation in security monitoring, detection, and investigation.
+They also provide a base for transitioning into Cyber GRC roles by connecting technical analysis with risk and business impact.
