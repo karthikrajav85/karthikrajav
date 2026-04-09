@@ -14,6 +14,8 @@ The objective is to identify, assess, and manage cybersecurity risks using struc
 * NIST Cybersecurity Framework (CSF)
 * Digital Personal Data Protection Act (DPDPA – India)
 
+This project simulates real-world enterprise risk management practices and decision-making processes.
+
 ---
 
 ### Organization Context
