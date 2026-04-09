@@ -65,6 +65,19 @@ Performed analysis on user and system activity to detect unusual login patterns 
 
 ---
 
+## Risk Perspective
+
+These projects highlight how security monitoring helps in identifying risks such as:
+
+- Data exfiltration leading to data breach
+- Unauthorized access due to compromised accounts
+- Suspicious external communications
+- Abnormal network behavior indicating potential attacks
+
+Understanding these risks is important for organizations to protect sensitive data and maintain business continuity.
+
+---
+
 ## Business & Security Relevance
 
 These projects simulate real-world SOC analyst tasks where logs are continuously monitored to:
