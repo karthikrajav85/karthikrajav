@@ -267,7 +267,90 @@ This project demonstrates how network behavior analysis can be used to identify 
 
 ## Project Screenshots
 
-(Attach all 13 screenshots here)
+## Project Screenshots
+
+---
+
+### 1. Data Validation
+
+![Data Validation](01_Data_Validation.png)
+
+---
+
+### 2. Sourcetype Analysis
+
+![Sourcetype Analysis](02_Sourcetype_Analysis.png)
+
+---
+
+### 3. Network Log Identification
+
+![Network Logs](03_Network_Log_Identification.png)
+
+---
+
+### 4. Baseline Traffic Trend
+
+![Baseline Traffic](04_Baseline_Traffic_Trend.png)
+
+---
+
+### 5. Top Talkers
+
+![Top Talkers](05_Top_Talkers.png)
+
+---
+
+### 6. Top Destinations
+
+![Top Destinations](06_Top_Destinations.png)
+
+---
+
+### 7. External Communication
+
+![External Communication](07_External_Communication.png)
+
+---
+
+### 8. High External Traffic
+
+![High External Traffic](08_High_External_Traffic.png)
+
+---
+
+### 9. Time-Based Analysis
+
+![Time Analysis 1](09_Time_Based_Analysis%20\(1\).png)
+
+![Time Analysis 2](09_Time_Based_Analysis%20\(2\).png)
+
+---
+
+### 10. Port Analysis
+
+![Port Analysis](10_Port_Analysis.png)
+
+---
+
+### 11. Rare Port Analysis
+
+![Rare Ports](11_Rare_Port_Analysis.png)
+
+---
+
+### 12. DNS Analysis
+
+![DNS Analysis](12_DNS_Analysis.png)
+
+---
+
+### 13. Rare DNS Queries
+
+![Rare DNS](13_Rare_DNS_Queries.png)
+
+---
+
 
 ---
 
