@@ -264,3 +264,15 @@ Each risk includes:
 
 ---
 
+### Conclusion
+
+This project demonstrates a structured and practical approach to enterprise IT risk management. 
+
+By identifying risks, mapping them to industry frameworks (ISO 27001, NIST CSF, and DPDPA), and defining actionable treatment plans, the project highlights the ability to align cybersecurity risks with business and compliance requirements.
+
+This approach reflects real-world GRC practices used to improve organizational security posture and risk visibility.
+
+---
+
+---
+
