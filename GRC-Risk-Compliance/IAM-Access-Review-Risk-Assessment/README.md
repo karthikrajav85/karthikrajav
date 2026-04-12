@@ -41,3 +41,43 @@ The key objectives of this project are:
 - To align the overall approach with industry standards such as ISO 27001, NIST, and DPDPA
 
 ---
+
+## Scope of the Project
+
+This project focuses on performing a User Access Review and Access Control Risk Assessment for selected critical systems within the organization.
+
+The scope includes:
+
+- Review of approximately 50 users who have access to key business systems
+- Analysis of critical systems such as Customer Database, Payment Processing System, Admin Panel, IAM System, and POS System
+- Evaluation of user access against defined role-based access control (RBAC)
+- Identification of access control issues such as excessive access, inactive users, and role mismatches
+- Documentation of audit findings and risk assessment
+- Recommendation of security controls and governance mechanisms
+
+The scope excludes:
+
+- Detailed technical implementation of security tools
+- Infrastructure-level security configurations
+- Network security and application security testing
+
+This project is focused on access governance and risk assessment from a Cyber GRC perspective.
+
+---
+
+## Critical Systems & Asset Classification
+
+As part of the assessment, critical business systems were identified and classified based on their impact on business operations, data sensitivity, and risk exposure.
+
+The systems were categorized into High, Medium, and Low based on factors such as customer data handling, financial transactions, and operational dependency.
+
+High critical systems include Customer Database, Payment Processing System, Admin Panel, IAM System, and E-commerce Applications, as they handle sensitive data and core business operations.
+
+Medium critical systems include POS System, Inventory Management System, and Email System, which support business operations but have relatively lower risk compared to core systems.
+
+Low critical systems include infrastructure components with limited direct business impact.
+
+📄 File: [Asset Classification Table](01-data/01_Asset_Classification_Table.xlsx)
+
+---
+
