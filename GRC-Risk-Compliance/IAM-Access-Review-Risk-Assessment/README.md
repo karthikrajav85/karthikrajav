@@ -126,9 +126,6 @@ Risk levels (High, Medium, Low, Nil) were assigned based on the potential impact
 
 This structured approach helped in identifying key access control gaps, including inactive users with access, excessive privileges, and role mismatches.
 
-📄 File: [Access Review Sheet](02-analysis/04_User_Access_Review_Sheet.xlsx)
-(Click to download and view in Excel)
-
 The results of the review were documented in a structured Access Review Sheet, capturing user details, access validation (Right/Wrong), risk levels, and justification for each case.
 
 📄 File: [Access Review Sheet](02-analysis/04_User_Access_Review_Sheet.xlsx)
