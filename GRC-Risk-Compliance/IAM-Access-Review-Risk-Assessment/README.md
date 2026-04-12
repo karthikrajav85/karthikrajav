@@ -78,6 +78,57 @@ Medium critical systems include POS System, Inventory Management System, and Ema
 Low critical systems include infrastructure components with limited direct business impact.
 
 📄 File: [Asset Classification Table](01-data/01_Asset_Classification_Table.xlsx)
+(Click to download and view in Excel)
 
 ---
+
+## Role-Based Access Control (RBAC)
+
+As part of the assessment, a Role-Based Access Control (RBAC) model was defined to establish the expected access levels for different user roles within the organization.
+
+Roles such as Customer Support Executive, Finance Executive, Database Administrator, Application Developer, DevOps Engineer, and Store Manager were identified based on business functions.
+
+Access permissions were assigned based on the principle of least privilege, ensuring that users are granted only the minimum level of access required to perform their job responsibilities.
+
+This RBAC model was used as a baseline to compare against actual user access in order to identify deviations, excessive privileges, and unauthorized access.
+
+📄 File: [Role Access Mapping](01-data/02_Role_Access_Mapping.xlsx)
+(Click to download and view in Excel)
+
+---
+
+## User Access Dataset
+
+A realistic user access dataset was created to simulate actual organizational access scenarios. The dataset consists of 50 users across different business roles such as Customer Support, Finance, IT, Development, and Operations.
+
+Each user was assigned access to specific systems along with defined access levels (Read, Write, Admin) and account status (Active/Inactive).
+
+The dataset was intentionally designed to include both correct and incorrect access configurations, such as excessive privileges, inactive users with access, and role mismatches. This approach helped in performing a meaningful access review and identifying real-world security gaps.
+
+This dataset served as the foundation for conducting access validation, audit findings, and risk assessment.
+
+📄 File: [User Access Dataset](01-data/03_User_Access_Dataset.xlsx)
+(Click to download and view in Excel)
+
+---
+
+## Access Review Process
+
+The user access review was performed by comparing actual user access against the defined Role-Based Access Control (RBAC) model.
+
+Each user’s access was evaluated based on their role, assigned system, access level (Read, Write, Admin), and account status (Active/Inactive).
+
+Access was classified as:
+- **Right**: When access aligns with the user’s role and business requirement
+- **Wrong**: When access is excessive, inappropriate, or assigned to inactive users
+
+Risk levels (High, Medium, Low, Nil) were assigned based on the potential impact of the identified issue, such as exposure of sensitive data, unauthorized modifications, or misuse of privileged access.
+
+This structured approach helped in identifying key access control gaps, including inactive users with access, excessive privileges, and role mismatches.
+
+📄 File: [Access Review Sheet](02-analysis/04_User_Access_Review_Sheet.xlsx)
+(Click to download and view in Excel)
+
+---
+
 
