@@ -230,18 +230,18 @@ This ensures risks are actively managed and reduced to acceptable levels.
 
 ### Project Documentation
 
-#### Supporting Documents
+### Supporting Documents
 
-- 01_Asset_Inventory.docx
-- 02_Threat_Identification.docx
-- 03_Vulnerability_Identification.docx
+- [01_Asset_Inventory.docx](Documentation/01_Asset_Inventory.docx)
+- [02_Threat_Identification.docx](Documentation/02_Threat_Identification.docx)
+- [03_Vulnerability_Identification.docx](Documentation/03_Vulnerability_Identification.docx)
 
-#### Assessment Documents
+### Assessment Documents
 
-- 04_Risk_Assessment.xlsx
-- 05_Risk_Register.xlsx
-- 06_Control_Mapping.xlsx
-- 07_Risk_Treatment_Plan.xlsx
+- [04_Risk_Assessment.xlsx](Documentation/04_Risk_Assessment.xlsx)
+- [05_Risk_Register.xlsx](Documentation/05_Risk_Register.xlsx)
+- [06_Control_Mapping.xlsx](Documentation/06_Control_Mapping.xlsx)
+- [07_Risk_Treatment_Plan.xlsx](Documentation/07_Risk_Treatment_Plan.xlsx)
 
 ---
 
