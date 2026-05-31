@@ -4,7 +4,7 @@
 
 ---
 
-### Project Overview
+### Project Overview:
 
 This project demonstrates a complete **Enterprise IT Risk Management process** for a small e-commerce organization (KR Shopping Pvt Ltd).
 
@@ -18,7 +18,7 @@ This project simulates real-world enterprise risk management practices and decis
 
 ---
 
-### Organization Context
+### Organization Context:
 
 * **Industry:** E-Commerce & Retail
 * **Size:** Small Enterprise (~100 employees)
@@ -33,7 +33,7 @@ This project simulates real-world enterprise risk management practices and decis
 
 ---
 
-### Project Scope
+### Project Scope:
 
 The following GRC activities were performed:
 
@@ -48,7 +48,9 @@ The following GRC activities were performed:
 
 ---
 
-### Asset Identification
+### Asset Identification:
+
+The following assets were identified during the assessment:
 
 #### Hardware Assets
 
@@ -89,7 +91,9 @@ The following GRC activities were performed:
 
 ---
 
-### Threat Identification
+### Threat Identification:
+
+The following threats were identified during the assessment
 
 #### Application-Level Threats
 
@@ -124,45 +128,46 @@ The following GRC activities were performed:
 
 ---
 
-### Vulnerability Identification
+### Vulnerability Identification:
 
-#### Application & API Risks
+The following vulnerabilities were identified during the assessment
 
-* Lack of input validation and sanitization
-* Absence of secure API communication (No TLS)
+#### Application and System Vulnerabilities
 
-#### Access Control Risks
+- Outdated Operating Systems and Unpatched Software
+- Unsecured Databases
+- Unencrypted Data Transmission (Forms and APIs)
 
-* Weak authentication (No MFA)
-* Lack of Role-Based Access Control (RBAC)
+#### Access Control Vulnerabilities
 
-#### Network & Infrastructure Risks
+- Weak Password Management Practices
+- Inadequate Access Control Mechanisms
 
-* Inadequate firewall configuration
-* Weak Wi-Fi security
+#### Monitoring and Detection Vulnerabilities
 
-#### Monitoring Risks
+- Insufficient Logging and Monitoring Mechanisms
 
-* No centralized logging / SIEM
+#### Network Security Vulnerabilities
 
-#### Data Protection Risks
+- Inadequate Firewall Configuration or Protection
+- Weak Wireless Network Security
 
-* Unencrypted data transmission
-* Unsecured databases
+#### Organizational Vulnerabilities
 
-#### Organizational Risks
+- Lack of Security Awareness Training for Employees
+- Absence of Formal Data Usage and Security Policies
 
-* Lack of security awareness training
-* Absence of data protection policies
+#### Physical Security Vulnerabilities
 
-#### Physical & Continuity Risks
+- Inadequate Physical Security Controls
 
-* Poor physical security controls
-* No backup / disaster recovery plan
+#### Communication Security Vulnerabilities
+
+- Absence of Secure Communication (No SSL/TLS Implementation)
 
 ---
 
-### Risk Assessment
+### Risk Assessment:
 
 Risks were identified using:
 
@@ -177,7 +182,7 @@ Each risk was evaluated using:
 
 ---
 
-### Risk Register
+### Risk Register:
 
 A structured risk register was developed to manage and track identified risks.
 
@@ -196,7 +201,7 @@ The detailed risk scenarios (asset, threat, vulnerability relationships) are doc
 
 ---
 
-### Control Mapping Approach
+### Control Mapping Approach:
 
 Each risk was mapped to:
 
@@ -211,7 +216,7 @@ Each risk was mapped to:
 
 ---
 
-### Risk Treatment Plan
+### Risk Treatment Plan:
 
 * High Risks → Immediate mitigation
 * Medium Risks → Planned mitigation
@@ -228,7 +233,7 @@ This ensures risks are actively managed and reduced to acceptable levels.
 
 ---
 
-### Project Documentation
+### Project Documentation:
 
 ### Supporting Documents
 
@@ -245,7 +250,7 @@ This ensures risks are actively managed and reduced to acceptable levels.
 
 ---
 
-### Screenshots
+### Screenshots:
 
 #### Asset Inventory
 
@@ -293,7 +298,7 @@ This ensures risks are actively managed and reduced to acceptable levels.
 
 ---
 
-### Business Impact
+### Business Impact:
 
 The identified risks can significantly affect the organization in the following ways:
 
@@ -305,7 +310,7 @@ The identified risks can significantly affect the organization in the following 
 
 ---
 
-### Key Learnings
+### Key Learnings:
 
 * End-to-end enterprise risk assessment
 * Practical GRC implementation
@@ -315,7 +320,7 @@ The identified risks can significantly affect the organization in the following 
 
 ---
 
-### Conclusion
+### Conclusion:
 
 This project demonstrates a structured and practical approach to enterprise IT risk management. 
 
