@@ -228,36 +228,68 @@ This ensures risks are actively managed and reduced to acceptable levels.
 
 ---
 
-### Project Files
+### Project Documentation
 
-#### Excel Files
+#### Supporting Documents
 
-* `01_Risk_Assessment.xlsx`
-* `02_Risk_Register.xlsx`
-* `03_Control_Mapping.xlsx`
-* `04_Risk_Treatment_Plan.xlsx`
+- 01_Asset_Inventory.docx
+- 02_Threat_Identification.docx
+- 03_Vulnerability_Identification.docx
+
+#### Assessment Documents
+
+- 04_Risk_Assessment.xlsx
+- 05_Risk_Register.xlsx
+- 06_Control_Mapping.xlsx
+- 07_Risk_Treatment_Plan.xlsx
 
 ---
 
 ### Screenshots
 
+#### Asset Inventory
+
+![Asset Inventory](Screenshots/01_Asset_Inventory.png)
+
+---
+
+#### Threat Identification
+
+![Threat Identification](Screenshots/02_Threat_Identification.png)
+
+---
+
+#### Vulnerability Identification
+
+![Vulnerability Identification](Screenshots/03_Vulnerability_Identification.png)
+
+---
+
 #### Risk Assessment
 
-![Risk Assessment](Screenshots/01_Risk_Assessment_1.png)
-![Risk Assessment](Screenshots/02_Risk_Assessment_2.png)
+![Risk Assessment](Screenshots/04_Risk_Assessment_1.png)
+
+![Risk Assessment](Screenshots/05_Risk_Assessment_2.png)
+
+---
 
 #### Risk Register
 
-![Risk Register](Screenshots/03_Risk_Register.png)
+![Risk Register](Screenshots/06_Risk_Register.png)
+
+---
 
 #### Control Mapping
 
-![Control Mapping](Screenshots/04_Control_Mapping.png)
+![Control Mapping](Screenshots/07_Control_Mapping.png)
+
+---
 
 #### Risk Treatment Plan
 
-![Risk Treatment](Screenshots/05_Risk_Treatment_Plan_1.png)
-![Risk Treatment](Screenshots/06_Risk_Treatment_Plan_2.png)
+![Risk Treatment](Screenshots/08_Risk_Treatment_Plan_1.png)
+
+![Risk Treatment](Screenshots/09_Risk_Treatment_Plan_2.png)
 
 ---
 
