@@ -411,7 +411,7 @@ The vendor onboarding process was formally initiated and the assessment workflow
 
 | Evidence |
 |-----------|
-| 📁 [View Phase 1 – Due Diligence & Onboarding Screenshots](Screenshots/01-Due-Diligence-Onboarding/README.md) |
+| 📁 [View Phase 1 – Due Diligence & Onboarding Screenshots](Screenshots/01-Due-Diligence-Onboarding) |
 
 ---
 
@@ -431,9 +431,11 @@ Outcome:
 
 The inherent risk associated with the payment processing engagement was evaluated and documented, providing a baseline for subsequent due diligence activities.
 
-Evidence:
+### Evidence
 
-- Screenshots/02-Inherent-Risk-Assessment
+| Evidence |
+|-----------|
+| 📁 [View Phase 2 – Inherent Risk Assessment Screenshots](Screenshots/02-Inherent-Risk-Assessment) |
 
 ---
 
@@ -452,9 +454,11 @@ Outcome:
 
 A structured third-party assessment package was created and distributed to the vendor.
 
-Evidence:
+### Evidence
 
-- Screenshots/03-Third-Party-Assessment
+| Evidence |
+|-----------|
+| 📁 [View Phase 3 – Third-Party Assessment Screenshots](Screenshots/03-Third-Party-Assessment) |
 
 ---
 
@@ -480,9 +484,11 @@ Outcome:
 
 The vendor successfully completed and submitted all assigned questionnaires for assessment review.
 
-Evidence:
+### Evidence
 
-- Screenshots/04-Third-Party-Portal
+| Evidence |
+|-----------|
+| 📁 [View Phase 4 – Third-Party Portal Activities Screenshots](Screenshots/04-Third-Party-Portal) |
 
 ---
 
@@ -505,9 +511,11 @@ Outcome:
 
 A potential compliance concern was formally identified and progressed through the issue management process.
 
-Evidence:
+### Evidence
 
-- Screenshots/05-Issue-Management
+| Evidence |
+|-----------|
+| 📁 [View Phase 5 – Issue Management & Remediation Screenshots](Screenshots/05-Issue-Management) |
 
 ---
 
@@ -531,9 +539,11 @@ Outcome:
 
 The remediation response addressed the identified concern and provided the necessary clarification for further review.
 
-Evidence:
+### Evidence
 
-- Screenshots/05-Issue-Management
+| Evidence |
+|-----------|
+| 📁 [View Phase 5 – Issue Management & Remediation Screenshots](Screenshots/05-Issue-Management) |
 
 ---
 
@@ -553,9 +563,11 @@ Outcome:
 
 The issue was successfully resolved and closed through the ServiceNow TPRM workflow, completing the assessment lifecycle.
 
-Evidence:
+### Evidence
 
-- Screenshots/05-Issue-Management
+| Evidence |
+|-----------|
+| 📁 [View Phase 5 – Issue Management & Remediation Screenshots](Screenshots/05-Issue-Management) |
 
 ---
 
