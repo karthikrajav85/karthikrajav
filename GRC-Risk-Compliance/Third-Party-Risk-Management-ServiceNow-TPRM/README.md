@@ -407,9 +407,11 @@ Outcome:
 
 The vendor onboarding process was formally initiated and the assessment workflow was triggered.
 
-Evidence:
+### Evidence
 
-- Screenshots/01-Due-Diligence-Onboarding
+| Evidence |
+|-----------|
+| 📁 [View Phase 1 – Due Diligence & Onboarding Screenshots](Screenshots/01-Due-Diligence-Onboarding/README.md) |
 
 ---
 
